@@ -54,12 +54,12 @@ def analyze(data: dict):
     if text_length > 40:
         score -= 10
 
-        if condition == "Depression":
-            suggestions = [
-            "Talk to someone you trust",
-            "Take sunlight walks daily",
-            "Maintain regular sleep schedule"
-        ]
+    if condition == "Depression":
+        suggestions = [
+        "Talk to someone you trust",
+        "Take sunlight walks daily",
+        "Maintain regular sleep schedule"
+    ]
 
     elif condition == "Anxiety":
         suggestions = [
